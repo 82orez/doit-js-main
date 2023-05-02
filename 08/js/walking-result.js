@@ -1,4 +1,5 @@
 const result = document.querySelector("#result");  // 결괏값을 표시할 부분
+
 const firstDay = new Date("2021-07-01");  // 시작한 날
 const today = new Date();  // 오늘
 

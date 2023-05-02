@@ -1,0 +1,1 @@
+window.open('notice.html','pop up', 'width=600 height=500');

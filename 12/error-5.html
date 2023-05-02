@@ -15,7 +15,8 @@
     try {
       let user = JSON.parse(json);
       if (!user.name) {
-        throw "사용자 이름이 없습니다.";
+        // throw "사용자 이름이 없습니다.";
+        throw new Error('No user!!');
       }
     } catch (err) {
       console.error(err);
